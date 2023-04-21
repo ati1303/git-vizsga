@@ -5,3 +5,6 @@ README file létrehozása utána $ git add . parancs a file hozzáadását jelen
 $ git clear paranccsal kitöröljük az eddigi parancsokat
 $ git branch console-concole ág létrehozása
 $ git checkout console-console ágba való átlépést teszi lehetővé
+$ git cd git-vizsga repository váltás
+$ git remote set-url origin távoli gyűjtemény megadása
+$ git push -u origin main console feltöltés távoli gyűjteménybe
