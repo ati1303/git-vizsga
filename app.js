@@ -1,3 +1,4 @@
+window.addEventListener("load", () => {
 const musicContainer = document.getElementById("music-container");
 const playBtn = document.getElementById("play");
 const prevBtn = document.getElementById("prev");
@@ -7,8 +8,15 @@ const audio = document.getElementById("audio");
 const title = document.getElementById("title");
 const cover = document.getElementById("cover");
 
+console.log("Az oldal sikeresen betöltődött");
+
+});
+
+
+
 //Zenék címei
 const songs = ["hey", "summer", "ukulele", "river"];
+
 
 //Kiinduló zene indexe
 let songIndex = 2;
@@ -94,5 +102,11 @@ prevBtn.addEventListener("click", prevSong);
 
 //Ha a zene végetért lépjen a következőre
 audio.addEventListener("ended", nextSong);
+
+
+
+
+
+
 
 
